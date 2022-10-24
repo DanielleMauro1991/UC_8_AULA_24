@@ -75,12 +75,16 @@ while (contador <= numerodealunos) {
         }
 
 
-        let idade = 31
+        let idade = 20
 
-        let ingresso = true
+        let ingresso = false //Atribui o valor xx à variável ingresso
 
-        if (idade > = 18 && ingresso==true){
+        if (idade >= 18 && ingresso==true){ // Comparando o valor dentro da variável ingresso
 
             console.log ("Bem vindo a festa!")
+        }else {
+
+            console.log ("Não há permissão para entrar")
         }
+        
 

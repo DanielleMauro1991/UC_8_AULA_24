@@ -74,3 +74,13 @@ while (contador <= numerodealunos) {
             console.log (`Esta pessoa se chama ${nome}`)
         }
 
+
+        let idade = 31
+
+        let ingresso = true
+
+        if (idade > = 18 && ingresso==true){
+
+            console.log ("Bem vindo a festa!")
+        }
+

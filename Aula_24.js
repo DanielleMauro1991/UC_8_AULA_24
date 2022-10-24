@@ -48,3 +48,29 @@ for (let contador = 0; contador <= numerodealunos; contador++) {
         }
     
 
+            
+        let numerodealunos = 10
+
+        contador = 0
+
+while (contador <= numerodealunos) {
+
+    if (contador == 0 ){
+        console.log ("O número atual é zero")
+    }else if (contador % 2 !=0){
+            console.log ("O número " + contador + " é ímpar")
+        }else{
+            console.log ("O número " + contador + " é par")
+        }
+        contador++
+
+        }
+
+
+        let nomedealunos = ["Caique", "Tiago", "Jéssica"]
+
+        for (let nome of nomedealunos){
+
+            console.log (`Esta pessoa se chama ${nome}`)
+        }
+
